@@ -16,6 +16,21 @@ a{
 a:hover{
     color: #eebd6b ;
 }
+button{
+    font: 1.6rem helvetica;
+    padding: 1rem;
+    border: 0.1rem #808080 solid;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+button:hover{
+    border: 0.1rem #404040 solid;
+}
+button.primary{
+    background-color: #ffc040;
+}
+.fw{width: 100%
+}
 /*fr = fragment*/
 .grid-container{
     display: grid;
@@ -106,4 +121,47 @@ footer{
 .rating span:last-child{
     color: #444444;
     font-size: 1.4rem;
+}
+
+.content{
+    padding: 1rem;
+}
+/*Product Details*/
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.details-image{
+    flex: 2 1 60rem;
+}
+.details-image img{
+    max-width: 60rem;
+    width: 100%;
+}
+
+.details-info,
+.details-action{
+    flex: 1 1 30rem;
+}
+ ul {
+    padding: 0;
+    list-style-type: none;
+}
+.details-info h1{
+    font-size: 2rem;
+    margin: 0;
+}
+.details-info li,
+.details-action li{
+    margin-bottom: 1rem;
+}
+.details-action{
+    border: 0.1rem #bbb9b9 solid;
+    background-color: #fafafa;
+    border-radius: 0.5rem;
+    padding: 1rem;
 }
