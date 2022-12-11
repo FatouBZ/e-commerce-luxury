@@ -31,6 +31,12 @@ button.primary{
 }
 .fw{width: 100%
 }
+.success {
+    color: #40c040;
+}
+.error {
+    color: #c04040;;
+}
 /*fr = fragment*/
 .grid-container{
     display: grid;
@@ -164,4 +170,7 @@ footer{
     background-color: #fafafa;
     border-radius: 0.5rem;
     padding: 1rem;
+}
+.back-to-result{
+    padding-bottom: 10rem;
 }
